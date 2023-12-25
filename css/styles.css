@@ -200,6 +200,7 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .hero-item {
   max-width: 496px;
@@ -529,7 +530,7 @@ a:hover {
 /* Modal window */
 
 .backdrop {
-  opacity: fixed;
+  position: fixed;
   top: 0;
   left: 0;
 
@@ -541,11 +542,14 @@ a:hover {
   height: 100vh;
   border-radius: 4px;
   background: #fcfcfc;
+
+  transition: opacity 300ms ease-in, visibility 300ms ease-in;
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
 }
 .backdrop p {
   width: fit-content;

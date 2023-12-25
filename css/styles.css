@@ -617,8 +617,6 @@ a:hover {
   margin-bottom: 16px;
 }
 
-.modal-form {
-}
 .form-btn {
   margin: auto;
   align-items: center;
@@ -636,4 +634,25 @@ a:hover {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.03em;
+}
+.modal-form {
+}
+.form-wrapper {
+}
+.form-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+.form-field {
+  position: relative;
+}
+.form-input {
+}
+.form-icon {
+}
+.icon-user {
 }

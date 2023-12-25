@@ -525,3 +525,32 @@ a:hover {
 .footer-socials-icon {
   fill: #f4f4fd;
 }
+
+/* Modal window */
+
+.backdrop {
+  opacity: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+  border-radius: 4px;
+  background: #fcfcfc;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.backdrop p {
+  width: fit-content;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 73px;
+  padding-bottom: 16px;
+}

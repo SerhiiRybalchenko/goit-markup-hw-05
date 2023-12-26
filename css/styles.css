@@ -719,8 +719,10 @@ a:hover {
 
 .checkbox:checked + .form-wrapper-label > .form-wrapper-span {
   background-color:#404bbf;
-  border: none; 
+  border: none;
   fill: #F4F4FD;
+}
+.checkbox:checked + .form-wrapper-label > .form-wrapper-span > .form-wrapper-icon {
   opacity: 1;
 }
 

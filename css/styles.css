@@ -664,6 +664,15 @@ a:hover {
   border-color: #4d5ae5;
 }
 .form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+
+  fill: #2e2f42;
+}
+.form-input:focus + .form-icon {
+  fill: #4d5ae5;
 }
 .icon-user {
 }

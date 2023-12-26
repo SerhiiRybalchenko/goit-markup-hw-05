@@ -683,3 +683,46 @@ a:hover {
 }
 .user-comment {
 }
+
+/* footer-form */
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer-form-caption {
+  color: var(--WHITE, #fff);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+.footer-form-email {
+}
+.footer-form-label {
+}
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  outline: transparent;
+}
+.footer-form-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+  text-align: center;
+
+  border-radius: 4px;
+  background: #4d5ae5;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 8px 24px;
+}
+.footer-form-svg {
+}

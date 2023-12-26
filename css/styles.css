@@ -624,7 +624,6 @@ a:hover {
   margin: auto;
   align-items: center;
   justify-content: center;
-  display: flex;
   padding: 16px 32px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
@@ -718,7 +717,11 @@ a:hover {
 }
 .checkbox:checked + .form-wrapper-span {
   background-color:#404bbf;
-
+  border: none; 
+  fill: #F4F4FD;
+}
+.checkbox:checked + .form-wrapper-span > .form-wrapper-icon {
+  opacity: 1;
 }
 .form-wrapper-label {
   font-size: 12px;

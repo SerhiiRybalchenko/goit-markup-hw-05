@@ -619,6 +619,8 @@ a:hover {
 }
 
 .form-btn {
+  display: block;
+  height: 56px;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -634,7 +636,9 @@ a:hover {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form {
 }
@@ -710,13 +714,11 @@ a:hover {
   margin-bottom: 24px;
 }
 .checkbox {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
- 
+  
+}
+.checkbox:checked + .form-wrapper-span {
+  background-color:#404bbf;
+
 }
 .form-wrapper-label {
   font-size: 12px;
@@ -725,13 +727,28 @@ a:hover {
   color:#8e8f99; 
 }
 .form-wrapper-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center; 
+  justify-content: center;  
+  fill: transparent;
 }
+
+
 .form-wrapper-icon {
   opacity: 0;
 }
 .form-wrapper-link {
   color: #4D5AE5;
-front-size: 12px;
+font-size: 12px;
+text-decoration-line: underline;
 }
 
 

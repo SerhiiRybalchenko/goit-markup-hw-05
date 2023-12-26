@@ -546,7 +546,6 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-
   background-color: rgba(46, 47, 66, 0.4);
 }
 

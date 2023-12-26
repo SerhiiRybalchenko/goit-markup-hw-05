@@ -497,12 +497,14 @@ a:hover {
   margin-bottom: 16px;
 }
 .footer-social {
+  
 }
 
 .socials-footer {
   display: flex;
   align-items: flex-start;
   gap: 16px;
+  padding-right: 80px;
 }
 .footer-socials-link {
   display: flex;
@@ -687,7 +689,7 @@ a:hover {
 /* footer-form */
 
 .footer-form {
-  display: flex;
+  display: block;
 
 }
 .footer-form-caption {
@@ -744,4 +746,11 @@ a:hover {
 }
 .footer-form-svg {
   margin-left: 16px;
+}
+
+.footer-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+padding-top: ;
 }

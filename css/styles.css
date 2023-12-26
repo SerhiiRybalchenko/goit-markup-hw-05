@@ -717,7 +717,7 @@ a:hover {
   fill: transparent;
 }
 
-.checkbox:checked + .form-wrapper-label > .form-wrapper-span >.form-wrapper-icon {
+.checkbox:checked + .form-wrapper-label > .form-wrapper-span {
   background-color:#404bbf;
   border: none; 
   fill: #F4F4FD;

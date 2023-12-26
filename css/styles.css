@@ -605,6 +605,7 @@ a:hover {
   border: none;
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-btn-icon {
@@ -638,6 +639,7 @@ a:hover {
 .modal-form {
 }
 .form-wrapper {
+  margin-bottom: 8px;
 }
 .form-label {
   display: block;
@@ -668,11 +670,16 @@ a:hover {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
 }
 .form-input:focus + .form-icon {
   fill: #4d5ae5;
 }
 .icon-user {
+}
+.form-wrapper-comment {
+  margin-bottom: 16px;
+}
+.user-comment {
 }
